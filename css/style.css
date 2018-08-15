@@ -1,0 +1,450 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html{
+    font-size: 22px;
+}
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+body *{  
+    font-family: 'Marcellus',althea, serif;
+    font-variant: normal;
+    /*font-family: Brush Script Std;*/
+    font-size:;
+}
+
+body {
+    padding-top:none; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-size: 100%;
+    position: relative
+    height: 100%;
+}
+.header{
+    padding-top:60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+ /* le logo ecol */
+.mon_ecole{
+    padding-left:;
+}
+/* mon premier contenaire */
+.premiereligne{ background-color: #DFEDEB;
+    
+ }
+ .deuxiemeContenair{ 
+    background-color:red;
+  }
+.img-portfolio {
+    margin-bottom: 10px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+/*  style */
+.page-header{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'althea';
+    src: url('../fonts/althea-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/althea-semibold-webfont.woff') format('woff'),
+         url('../fonts/althea-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/althea-semibold-webfont.svg#altheasemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+/*p{ font-family:'kingthings_exeter' 'althea';
+
+ }*/
+ 
+
+ @font-face {
+    font-family: 'kingthings_exeter';
+    src: url('../fonts/kingthings_exeter-webfont.eot');
+    src: url('../fonts/kingthings_exeter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kingthings_exeter-webfont.woff2') format('woff2'),
+         url('../fonts/kingthings_exeter-webfont.woff') format('woff'),
+         url('../fonts/kingthings_exeter-webfont.ttf') format('truetype'),
+         url('../fonts/kingthings_exeter-webfont.svg#kingthings_exeterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{  font-family: 'kingthings_exeter'; 
+ text-shadow: 1px 2px 4px #8a9096;}
+.entete-ecole{
+    background-color: ;
+    word-wrap: break-word;
+
+}
+.Rouge{color: #f90702;}
+.Jaune{color:#f9f102 ;}
+.Vert{color:#19ea0b ;}
+.devise{
+    background-color: ;
+    word-wrap: break-word;
+    text-align: center;
+    padding-top: 15px;
+}
+.header{margin-top: 40px;
+
+}
+/*  background-color:rgba(39, 177, 230, 0.05); pour le navbar=======================nav bar=================================  */
+.nav > li > a { padding:2px 4px;
+    
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #d2ccdc;
+}
+.navbar-inverse .navbar-brand {
+        color: #d2ccdc;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#fff;
+    background-color:transparent;
+    transition:1s;
+}
+.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse .navbar-nav>.open>a:hover{
+    color:#fff;
+    background-color:transparent ;
+}
+.navbar-right{ margin-right: 4px;
+    margin-top: 11px ;
+}
+.navbar{ 
+    /*background-color:rgb(41, 60, 66);*/
+     background-image: url('../image/header-pattern-150.png');
+
+}
+.navbar li,a{/*! color:  rgba(19, 8, 53, 0.94); */
+    font-size: 20px;
+
+}
+.navigation-rapide ul{ 
+        list-style:none;
+        padding-left: 1px;      
+}
+.navigation-rapide a{ 
+         color: rgba(197, 195, 195, 0.95);
+}
+.navigation-rapide a:hover{color: ; 
+    text-decoration: none;
+ }
+#img-contact li figure{ background-color: rgba(214, 206, 206, 0.62);
+        border-radius: 50%;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        display: inline-table; 
+        text-align: center;
+        line-height: -10px;
+
+ }
+    /*====================navbar dropdown transition biensur que xa marche mais de preference jai utiser le java avec mon main.js=============*/
+/*.dropdown>.dropdown-menu{
+    -webkit-animation: fadein 0.8s; / Safari, Chrome and Opera > 12.1 
+       -moz-animation: fadein 0.8s; / Firefox < 16 /
+        -ms-animation: fadein 0.8s; / Internet Explorer /
+         -o-animation: fadein 0.8s; / Opera < 12.1 /
+            animation: fadein 0.8s;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/ Firefox < 16 /
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/ Safari, Chrome and Opera > 12.1 /
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/ Internet Explorer /
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/ Opera < 12.1 /
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+ /*================================fin nav bar========================================  */
+/*=========================custome image=============================  */
+/*.Personnel-l1 .img-portfolio{
+    max-width: 600px;
+    height:200px;
+
+}
+.Personnel-l2 .img-portfolio{
+    max-width: 600px;
+    height:200px;
+}*/
+.border-evenement{
+    border-left: 5px solid #1b809e;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.text-contact{
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+/* =============================footer=======================  */
+.footer-row{
+        border-top:5px solid #171616;
+        margin-bottom: 10px;
+    }
+.footer-row ul li{
+        
+    }
+h1{ font-family: ; }
+.list-footer li{border-left: 2px solid black;
+    display: inline-block;
+    color: black;
+    margin-left: ;
+    padding-left: 5px;
+}
+.list-footer a{
+    
+    color: rgba(197, 195, 195, 0.95);
+}
+.list-footer {
+        margin-top: 10px;
+    
+}
+/* Footer Styles */
+
+footer {
+    margin: 1px 0;
+    /*background-color: #4a91d8;*/
+    background-image: url('../image/header-pattern-150.png');
+    margin-top:;
+    color: rgba(197, 195, 195, 0.95);
+
+}
+
+/**************************scroll back top*********************************/
+#toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    border-radius: 80%;
+}
+
+/*==================================fin footer  ========================================*/
+
+/* pesonnel de l'administration*/
+.Personnel-l1{background-color:;
+            border-top: 3px dashed #000;
+            border-bottom: 3px dashed #000;
+            margin-top:px;
+            display: inline-block;
+}
+.Personnel-l1 img,aside{ margin-top: 10px; 
+        height: auto;
+        max-width: 100%;
+        display: block;
+        
+}
+.Personnel-l2{background-color:;
+            border-bottom: 3px dashed #000;
+            margin-top:px;
+            display: inline-block;
+}
+.Personnel-l2 img,aside{ margin-top: 10px; 
+        height: auto;
+        max-width: 100%;
+        display: block;
+        
+        
+}
+.panel-body{ 
+        height: auto;
+        background-color: ;
+        display: inline-block;
+        
+}
+
+
+/*{     
+    font-style: normal; }*/
+   
+h4 {
+font-family:quadranta, sans-serif;
+font-size:;
+}
+.fondateur-photo{
+        height:auto;
+        max-width: 100%;
+        display: block;
+        
+}
+.fondateur-row{display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.resumer ul {
+    background-color: ;
+    padding-left: 14px;
+    list-style: none;
+    word-wrap: break-word;
+
+
+}
+
+ #img-contact a .facebook:hover{ background-color:#4267b2;
+    transition-duration: 0.7s;
+    -webkit-transition-duration:0.7s ;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration:0.7s;
+    color:rgba(214, 206, 206, 0.62); 
+
+ }
+  #img-contact a .twitter:hover{ background-color:#1da1f2;
+    transition-duration: 0.7s;
+    -webkit-transition-duration:0.7s ;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration:0.7s;
+    color:rgba(214, 206, 206, 0.62); 
+
+ }
+  #img-contact a .youtube:hover{ background-color:#f00;
+    transition-duration: 0.7s;
+    -webkit-transition-duration:0.7s ;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration:0.7s;
+    color:rgba(214, 206, 206, 0.62); 
+
+ }
+ #img-contact . a figure:active{ background-color:rgba(214, 206, 206, 0.62) ;
+
+ }
+ 
+
+.BoutonSuite{ border-radius: 25px;
+
+ }
+.panel-default{ border: 2px solid rgb(195, 190, 190); 
+}
+/* style admition.html*/
+.enseignant{ padding-left: 0px; 
+        margin-left: ;
+}
+.enseignant h2{text-decoration: underline;}
+.scrollspy-example{ 
+        position: relative;
+        height: 700px;
+        margin-top: .5rem;
+        overflow: auto;
+ } 
+ #list-example ul{list-style: none;
+    padding-left: 50px;
+ }
+ .tableau{ margin-top: 30px; }
+ /*section*/
+ #Maternelle{
+    padding-top: 10px;
+}
+ #Primaire{
+    padding-top: 10px;
+}
+ #College{
+    padding-top: 10px;
+}
+ #Lycee {
+    padding-top: 10px;
+}
+#Presentation{
+    padding-top:20px;
+}
+#evenement{
+    padding-top:30px;
+}
